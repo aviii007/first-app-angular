@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public name = "Ashvini"
   public image = "/assets/car.png"
+
+  onClick(){
+    console.log("Thankyou for Booking")
+    alert('Car is Booked')
+  }
+
+
   title = 'my-first-app';
 }
