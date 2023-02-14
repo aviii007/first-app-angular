@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public name = "Ashvini"
+  public image = "/assets/car.png"
   title = 'my-first-app';
 }
